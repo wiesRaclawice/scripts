@@ -11,5 +11,6 @@ elif [ "${1}" = "analog" ]; then
 		amixer cset numid=3 1
 elif [ "${1}" = "hdmi" ]; then
 		amixer cset numid=3 2
+else echo "Command not recognized, use auto, analog or hdmi"
 fi
 
